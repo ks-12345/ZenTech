@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749196072133",
+    "project_id": "nexafood-be7af",
+    "storage_bucket": "nexafood-be7af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749196072133:android:d8605b01d7655aa7024cac",
+        "android_client_info": {
+          "package_name": "com.example.nexafood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEW9agHK0kxKYJ7ZamKJdXW06EKX-Oj8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
