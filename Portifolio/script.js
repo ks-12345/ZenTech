@@ -1,50 +1,53 @@
-const header = document.querySelector(".header");
-const cursorGlow = document.querySelector(".cursor-glow");
-const menuBtn = document.querySelector(".menu-btn");
+const navbar = document.getElementById('navbar');
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+const year = document.getElementById('year');
 
-window.addEventListener("scroll", () => {
-  header.classList.toggle("scrolled", window.scrollY > 20);
+year.textContent = new Date().getFullYear();
+
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 30);
 });
 
-menuBtn?.addEventListener("click", () => {
-  header.classList.toggle("menu-open");
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
 });
 
-document.querySelectorAll(".nav a").forEach(link => {
-  link.addEventListener("click", () => header.classList.remove("menu-open"));
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      entry.target.classList.add("visible");
+      entry.target.classList.add('visible');
       observer.unobserve(entry.target);
     }
   });
 }, { threshold: 0.12 });
 
-document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
-
-window.addEventListener("mousemove", (e) => {
-  cursorGlow.style.left = `${e.clientX}px`;
-  cursorGlow.style.top = `${e.clientY}px`;
-  cursorGlow.style.opacity = "1";
+document.querySelectorAll('.reveal').forEach((el, i) => {
+  el.style.transitionDelay = `${Math.min(i % 5, 4) * 70}ms`;
+  observer.observe(el);
 });
 
-document.addEventListener("mouseleave", () => {
-  cursorGlow.style.opacity = "0";
+const glow = document.querySelector('.cursor-glow');
+window.addEventListener('mousemove', e => {
+  glow.style.left = `${e.clientX}px`;
+  glow.style.top = `${e.clientY}px`;
 });
 
-// Pequeno efeito de profundidade no visual do dashboard.
-const visual = document.querySelector(".visual-card");
-window.addEventListener("mousemove", (e) => {
-  if (!visual || window.innerWidth < 900) return;
-  const x = (e.clientX / window.innerWidth - 0.5) * 5;
-  const y = (e.clientY / window.innerHeight - 0.5) * -5;
-  visual.style.transform = `rotate(2deg) translate(${x}px, ${y}px)`;
-});
+const sections = document.querySelectorAll('main section[id]');
+const navItems = document.querySelectorAll('.nav-links a');
 
-// Fecha o menu quando a tela volta ao desktop.
-window.addEventListener("resize", () => {
-  if (window.innerWidth > 900) header.classList.remove("menu-open");
-});
+const sectionObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navItems.forEach(item => item.classList.remove('active'));
+      const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { rootMargin: '-35% 0px -55% 0px' });
+
+sections.forEach(section => sectionObserver.observe(section));
