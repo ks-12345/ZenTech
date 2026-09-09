@@ -20,6 +20,10 @@
   --roxo: #cab4e6;
   --creme: #fff0d285;
   --dourado:  #fa58587a;
+  --paper: #BFAD9D;
+  --tan: #E6DFD6;
+  --tanback: #e6dfd63b;
+  --crimson:#901c26;
 }
 
 * {
@@ -66,7 +70,7 @@ a {
   align-items: center;
   justify-content: space-between;
   z-index: 50;
-  background: rgba(245, 245, 247, .72);
+  background: var(--tanback);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid transparent;
   transition: .3s
@@ -555,12 +559,12 @@ h2 span {
 
 .ecosystem {
   max-width: var(--max);
-
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 40px 1fr 40px 1fr;
   align-items: center
 }
+
 
 .eco-card {
   border: 1px solid var(--line);
@@ -574,7 +578,21 @@ h2 span {
 
 .eco-card:hover {
   transform: translateY(-7px);
-  border-color: rgba(224, 157, 112, 0.35)
+  border-color: rgba(224, 157, 112, 0.35);
+   background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--tan) 30%, transparent),
+    color-mix(in srgb, var(--paper) 30%, transparent)
+  );
+}
+.eco-card.featured:hover {
+  transform: translateY(-7px);
+  border-color: rgba(224, 157, 112, 0.35);
+   background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--tan) 30%, transparent),
+    color-mix(in srgb, var(--paper) 30%, transparent)
+  );
 }
 
 .eco-card.featured {
@@ -701,7 +719,11 @@ h2 span {
 }
 
 .feature:hover {
-  background: linear-gradient(135deg,#a5232b10, rgba(255, 255, 255, 0.1));
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--tan) 30%, transparent),
+    color-mix(in srgb, var(--paper) 30%, transparent)
+  );
 }
 
 
@@ -875,7 +897,7 @@ h2 span {
 .mock-bars i {
   display: block;
   flex: 1;
-  background: var(--dourado);
+  background: var(--crimson);
   border-radius: 5px 5px 0 0
 }
 
@@ -924,7 +946,7 @@ h2 span {
   /* border: 1px solid var(--line); */
   border-radius: 30px;
   overflow: hidden;
-  background: linear-gradient(75deg,  #ebdada8a 65%, #d4151594);
+  background: linear-gradient(75deg, var(--tan) 55%, var(--paper));
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 500px 
@@ -1109,10 +1131,7 @@ h2 span {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(https://lh3.googleusercontent.com/rd-gg-dl/AAQ_wbHvQSIU1TDPNipEMHQJcfS8llmsE5oMFgdop4LKg4GQwse2_GBxih526lyHszRq76_PjqFD3QF7zAYvaWVPPBERhgNADNjSX6P0sAWAFKwwIrahLbY7oTx0_RE_4zR6qdOOnCvlBra_I-TWWAUiZoILivDEqbTGeweumcinZklBarxits2CTkP9JS-RyXCfHY-Jj7edPT6z8n-FEFqcbJYPGTeftsuJn7tVbwHSg4S7ojhzRKBCKFb9KoaulL3pyAKsYcOhlsnq9gq5FsP51huaEq3sif1xF5vurJ9fp-r3GBN4ojnMRBsrnZRi9VDBAXRhy692G7UGYeK8XA3Y9jkUHBAg6Va0zg_NzhTlNOCZjvREYN-cpG0RhpY_N5dCkU5OEl7UeeA4H92tr6IQrHzHmmNjes-_RYgje1JL39zC8UxXc4CSHDVLB9AC4lztL58yaePlKvhvBO-JeDioTjzFzx8w_yhEY3JJIA3BecotPZEsja7fwaaT0-AxWV003aeFVmeryh-w4GsaRvWAABPZpkzNgnZb_2PM-Cmqx7N0XvQ7QYwxT80MX-v5y79O4df_OBdv_yatY62hM2vKEyLTeVzorkSkgc4WCGsqyo-lZRItxhOgHxWTZwn3GYTrkw8EqqcYLmoXml5d_K38rXN1jAQNH1avyQuaLIqxG7xfHgBtdfy_XPeumrD8doVrklzAaDT4Z0kTMwoCWutnvhG69R80AAbHZ7OKk1wNFEoFrInMryFnI-JMsh7S-zjGd5wS9a_pdiVZPoSg90lsxmAmIFArfl9vtorx2GKZ_qeqajffxYCnHFuny_Co8oFuJyAJLWX0ZoOqzF29qETwnE_lLl06A8coPQyma2QJrzR9rWh2piw9mHGyc09I5UUIm4EEgDOQeb4tivO_pm8-dcV7FilF90poZgwLtCiHq9vLCHOuGoqy6XX52sAPn5ApnkIVRXT992bPDplz5jYijqskTfBLcE6C8uI31O87SGkQ49OZCTrBTu_ev2qvzZeqQKzDJKZpm-QW8CFx3LzhqIj2r83bG3fNTtb8BO581hwmlxO0WxocTQOuz2mMl6lRr0j0A8Zphnahz-tzqjh6DBPmgCjK2kqEC0_tkAw5JfGqJuBH3Q5u1x-D2telPJwPOhS0Teq1iAAqSnMZUKf2mkCDFVqPcL4VE1g54X4wH02qxqk0TfBbc_CBFJQqD2n2LUscagFyAqNrtF_KUAxoXtvLRVUdYp21s4ttQE5U1pSvNf23UjdODzWD0NSrNPKx9aEO=s1024-rj);
-  background-repeat: no-repeat;
-  background-size: 100%;
-
+  background-color: var(--tan);
 }
 
 .contact > * {
@@ -1131,7 +1150,6 @@ h2 span {
 .contact h2 {
   font-size: clamp(45px, 7vw, 85px);
   margin: 20px 0;
-  text-shadow: 1px 1px rgb(250, 246, 246);
 }
 
 
