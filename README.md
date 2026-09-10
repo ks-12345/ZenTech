@@ -1,4 +1,4 @@
-# 🚀 Zentech
+# 🚀 RenkonTech
 
 > Sistema desenvolvido para modernizar, automatizar e centralizar processos de gestão empresarial por meio da tecnologia.
 
@@ -6,7 +6,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **Zentech** é um projeto de desenvolvimento de software criado com o objetivo de oferecer uma solução tecnológica para **organização, controle e automação de processos**, reduzindo tarefas manuais e tornando as informações mais acessíveis e confiáveis.
+O **RenkonTech** é um projeto de desenvolvimento de software criado com o objetivo de oferecer uma solução tecnológica para **organização, controle e automação de processos**, reduzindo tarefas manuais e tornando as informações mais acessíveis e confiáveis.
 
 O projeto foi desenvolvido como parte da formação em **Desenvolvimento de Sistemas**, aplicando conceitos de programação, banco de dados, desenvolvimento de interfaces, arquitetura de software e segurança da informação.
 
@@ -40,7 +40,7 @@ Esse cenário pode gerar:
 * Demora na realização das atividades;
 * Dificuldade para acompanhar resultados.
 
-O Zentech busca solucionar esses problemas através da **digitalização e centralização dos processos**.
+O RenkonTech busca solucionar esses problemas através da **digitalização e centralização dos processos**.
 
 ---
 
@@ -64,7 +64,7 @@ As tecnologias utilizadas no desenvolvimento do projeto incluem:
 ## 🏗️ Estrutura do Projeto
 
 ```text
-zentech/
+RenkonTech/
 │
 ├── android/
 ├── ios/
@@ -205,13 +205,13 @@ Entre os dados apresentados poderão estar:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/zentech.git
+git clone https://github.com/seu-usuario/RenkonTech.git
 ```
 
 ### 2. Acesse a pasta
 
 ```bash
-cd zentech
+cd RenkonTech
 ```
 
 ### 3. Instale as dependências
@@ -269,7 +269,7 @@ Projeto desenvolvido pelos alunos do curso de:
 
 ## 🎓 Contexto Acadêmico
 
-O Zentech está sendo desenvolvido como um projeto acadêmico, com o objetivo de aplicar na prática conhecimentos adquiridos durante o curso de **Desenvolvimento de Sistemas**.
+O RenkonTech está sendo desenvolvido como um projeto acadêmico, com o objetivo de aplicar na prática conhecimentos adquiridos durante o curso de **Desenvolvimento de Sistemas**.
 
 O projeto envolve conceitos de:
 
@@ -292,6 +292,6 @@ Este projeto foi desenvolvido para fins **acadêmicos e educacionais**.
 
 ## ⭐ Considerações
 
-O **Zentech** representa a aplicação prática de tecnologias e conceitos de desenvolvimento de sistemas para criar uma solução moderna, organizada e escalável.
+O **RenkonTech** representa a aplicação prática de tecnologias e conceitos de desenvolvimento de sistemas para criar uma solução moderna, organizada e escalável.
 
 > **Tecnologia para transformar processos em soluções.** 🚀
