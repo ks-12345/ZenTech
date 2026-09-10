@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "749196072133",
-    "project_id": "nexafood-be7af",
-    "storage_bucket": "nexafood-be7af.firebasestorage.app"
+    "project_number": "312113414264",
+    "project_id": "renkon-tech",
+    "storage_bucket": "renkon-tech.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:749196072133:android:d8605b01d7655aa7024cac",
+        "mobilesdk_app_id": "1:312113414264:android:57148b26be1d917e5ded8d",
         "android_client_info": {
           "package_name": "com.example.nexafood"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBEW9agHK0kxKYJ7ZamKJdXW06EKX-Oj8U"
+          "current_key": "AIzaSyAHPGdCLGSAgpUx59DKI9A5tmtJknLlcRs"
         }
       ],
       "services": {

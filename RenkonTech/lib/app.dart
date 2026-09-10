@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'core/routes/app_routes.dart';
 import 'core/theme/app_theme.dart';
 
-class NexaFoodApp extends StatelessWidget {
-  const NexaFoodApp({super.key});
+class RunkonTech extends StatelessWidget {
+  const RunkonTech({super.key});
 
   @override
   Widget build(BuildContext context) {
