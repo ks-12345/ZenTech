@@ -8,5 +8,5 @@ Future<void> main() async {
 
   await Firebase.initializeApp();
 
-  runApp(const NexaFoodApp());
+  runApp(const RenkonTechApp());
 }

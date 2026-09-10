@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('NexaFood'),
+        title: const Text('Renkon Tech'),
       ),
       body: Center(
         child: Column(
@@ -20,12 +20,12 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             Text(
-              'NexaFood',
+              'Renkon Tech',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const SizedBox(height: 8),
             Text(
-              'Sistema de gestão para restaurantes',
+              'Sistema inteligente de gestão para restaurantes',
               style: Theme.of(context).textTheme.bodyLarge,
             ),
           ],
