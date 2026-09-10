@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="lotus-animated.svg" alt="Flor de Lótus animada" width="280"/>
+  <img src="flor de lotus.gif" alt="Flor de Lótus animada" width="280"/>
 </p>
 
 <h1 align="center">🚀 RenkonTech</h1>
