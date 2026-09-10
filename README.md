@@ -1,6 +1,12 @@
-# 🚀 RenkonTech
+<p align="center">
+  <img src="lotus-animated.svg" alt="Flor de Lótus animada" width="280"/>
+</p>
 
-> Sistema desenvolvido para modernizar, automatizar e centralizar processos de gestão empresarial por meio da tecnologia.
+<h1 align="center">🚀 RenkonTech</h1>
+
+<p align="center">
+  <em>Sistema desenvolvido para modernizar, automatizar e centralizar processos de gestão empresarial por meio da tecnologia.</em>
+</p>
 
 ---
 
@@ -14,7 +20,7 @@ O projeto foi desenvolvido como parte da formação em **Desenvolvimento de Sist
 
 ## 🎯 Objetivo
 
-O principal objetivo do Zentech é desenvolver uma plataforma capaz de:
+O principal objetivo do RenkonTech é desenvolver uma plataforma capaz de:
 
 * ⚡ Automatizar processos;
 * 📊 Facilitar o acompanhamento das informações;
@@ -46,10 +52,8 @@ O RenkonTech busca solucionar esses problemas através da **digitalização e ce
 
 ## 🛠️ Tecnologias
 
-As tecnologias utilizadas no desenvolvimento do projeto incluem:
-
 | Tecnologia     | Utilização                                   |
-| -------------- | -------------------------------------------- |
+| -------------- | --------------------------------------------- |
 | **Flutter**    | Desenvolvimento da aplicação                 |
 | **Dart**       | Linguagem de programação                     |
 | **Firebase**   | Serviços de backend e gerenciamento de dados |
@@ -108,7 +112,7 @@ O sistema foi planejado para possuir funcionalidades como:
 
 ## 🔐 Segurança
 
-O Zentech considera a segurança dos dados como uma parte fundamental do sistema.
+O RenkonTech considera a segurança dos dados como uma parte fundamental do sistema.
 
 Entre as medidas planejadas estão:
 
@@ -148,7 +152,7 @@ DADOS DO SISTEMA
 
 ## 📱 Interface
 
-A interface do Zentech será desenvolvida buscando proporcionar:
+A interface do RenkonTech será desenvolvida buscando proporcionar:
 
 * Design moderno;
 * Navegação simples;
@@ -294,4 +298,4 @@ Este projeto foi desenvolvido para fins **acadêmicos e educacionais**.
 
 O **RenkonTech** representa a aplicação prática de tecnologias e conceitos de desenvolvimento de sistemas para criar uma solução moderna, organizada e escalável.
 
-> **Tecnologia para transformar processos em soluções.** 🚀
+<p align="center"><strong>Tecnologia para transformar processos em soluções. 🚀</strong></p>
