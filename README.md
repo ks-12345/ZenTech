@@ -263,7 +263,7 @@ Projeto desenvolvido pelos alunos do curso de:
 * 👤 Brenda Ribeiro Alves
 * 👤 Maria Eduarda Bezerra
 * 👤 Vitória Nunes Pereira
-* 👤 Viviane
+* 👤 Viviane Vitoria Nunes dos Santos
 
 ---
 
