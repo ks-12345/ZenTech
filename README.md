@@ -2,7 +2,7 @@
   <img src="flor de lotus.gif" alt="Flor de Lótus animada" width="280"/>
 </p>
 
-<h1 align="center">🚀 RenkonTech</h1>
+<h1 align="center"> 🪷 RenkonTech</h1>
 
 <p align="center">
   <em>Sistema desenvolvido para modernizar, automatizar e centralizar processos de gestão empresarial por meio da tecnologia.</em>
